@@ -1,0 +1,488 @@
+{
+  "scene": "Underground Bunker",
+  "dateTime": "2018-11-13 23:47:44",
+  "playerData": {
+    "playerPosition": {
+      "x": 21.1215954,
+      "y": 26.115,
+      "z": 11.5597239
+    },
+    "cameraRotation": {
+      "x": -308.999359,
+      "y": -1.60002589
+    },
+    "playerHealth": 100.0
+  },
+  "itemSwitcherData": {
+    "switcherActiveItem": -1,
+    "switcherLightObject": 0,
+    "switcherWeaponItem": -1,
+    "switcheritem_Flashlight": {
+      "batteryPercentage": 93.31339
+    },
+    "switcheritem_Lantern": {
+      "lightPercentage": 100.0,
+      "lightIntensity": 1.0,
+      "flameAlpha": 0.0
+    },
+    "switcheritem_Candle": {
+      "candleScale": 0.00113
+    }
+  },
+  "inventoryData": {
+    "inv_slots_count": 6,
+    "slotsData": {
+      "inv_slot_0": {
+        "slotID": 0,
+        "itemID": 21,
+        "itemAmount": 1
+      },
+      "inv_slot_1": {
+        "slotID": 1,
+        "itemID": 16,
+        "itemAmount": 2
+      },
+      "inv_slot_2": "null",
+      "inv_slot_3": "null",
+      "inv_slot_4": "null",
+      "inv_slot_5": "null"
+    }
+  },
+  "GlockClip01": {
+    "objectEnabled": true,
+    "position": {
+      "x": 6.256797,
+      "y": 26.0181274,
+      "z": 2.60850072
+    },
+    "eulerAngles": {
+      "x": -6.83018925E-06,
+      "y": 225.000015,
+      "z": 90.00003
+    }
+  },
+  "int_battery14": {
+    "objectEnabled": false,
+    "position": {
+      "x": 3.56005359,
+      "y": 25.86265,
+      "z": 0.6529847
+    },
+    "eulerAngles": {
+      "x": 270.055969,
+      "y": 0.0650061,
+      "z": 0.0
+    }
+  },
+  "int_battery13": {
+    "objectEnabled": false,
+    "position": {
+      "x": 3.60305357,
+      "y": 25.86265,
+      "z": 0.615984559
+    },
+    "eulerAngles": {
+      "x": 270.059326,
+      "y": 0.06491813,
+      "z": 0.0
+    }
+  },
+  "Flashlight01": {
+    "objectEnabled": false,
+    "position": {
+      "x": 3.524,
+      "y": 25.8562164,
+      "z": 0.488
+    },
+    "eulerAngles": {
+      "x": 5.10827249E-06,
+      "y": 147.404251,
+      "z": -0.000217973386
+    }
+  },
+  "int_ammopack": {
+    "objectEnabled": true,
+    "position": {
+      "x": 2.891838,
+      "y": 25.32174,
+      "z": 7.626288
+    },
+    "eulerAngles": {
+      "x": 1.19528258E-05,
+      "y": 3.07358532E-05,
+      "z": 2.04905718E-05
+    }
+  },
+  "int_zippoligher": {
+    "objectEnabled": true,
+    "position": {
+      "x": 9.513881,
+      "y": 26.9563046,
+      "z": 18.1282635
+    },
+    "eulerAngles": {
+      "x": 0.0306284,
+      "y": 180.0014,
+      "z": 0.0122764995
+    }
+  },
+  "int_doorkey": {
+    "objectEnabled": true,
+    "position": {
+      "x": 2.82960725,
+      "y": 25.2975159,
+      "z": 7.350485
+    },
+    "eulerAngles": {
+      "x": 90.0,
+      "y": -0.0008684702,
+      "z": 0.0
+    }
+  },
+  "int_door1h": {
+    "objectEnabled": true
+  },
+  "cabinet_door07": {
+    "objectEnabled": true
+  },
+  "int_door1g": {
+    "objectEnabled": true
+  },
+  "cabinet_door06": {
+    "objectEnabled": true
+  },
+  "int_door1d": {
+    "objectEnabled": true
+  },
+  "int_door1f": {
+    "objectEnabled": true
+  },
+  "cupboard_door08": {
+    "objectEnabled": true
+  },
+  "int_door1b": {
+    "objectEnabled": true
+  },
+  "int_door1e": {
+    "objectEnabled": true
+  },
+  "cabinet_door05": {
+    "objectEnabled": true
+  },
+  "int_door1a": {
+    "objectEnabled": true
+  },
+  "int_door1c": {
+    "objectEnabled": true
+  },
+  "dynamic_drawer01": {
+    "drawer_0": {
+      "position": {
+        "x": 2.18,
+        "y": 7.16889668
+      },
+      "useType": 0,
+      "isOpen": false,
+      "isUnlocked": true
+    },
+    "drawer_1": {
+      "position": {
+        "x": 2.18,
+        "y": 7.16889668
+      },
+      "useType": 0,
+      "isOpen": false,
+      "isUnlocked": true
+    },
+    "drawer_2": {
+      "position": {
+        "x": 2.18,
+        "y": 7.1695
+      },
+      "useType": 1,
+      "isOpen": false,
+      "isUnlocked": false
+    }
+  },
+  "dynamic_drawer04": {
+    "drawer_0": {
+      "position": {
+        "x": 2.04,
+        "y": 27.6611023
+      },
+      "useType": 0,
+      "isOpen": false,
+      "isUnlocked": true
+    },
+    "drawer_1": {
+      "position": {
+        "x": 2.04,
+        "y": 27.6611023
+      },
+      "useType": 0,
+      "isOpen": false,
+      "isUnlocked": true
+    },
+    "drawer_2": {
+      "position": {
+        "x": 2.04,
+        "y": 27.6611023
+      },
+      "useType": 1,
+      "isOpen": false,
+      "isUnlocked": false
+    }
+  },
+  "dynamic_drawer03": {
+    "drawer_0": {
+      "position": {
+        "x": 12.7461967,
+        "y": 27.6611023
+      },
+      "useType": 0,
+      "isOpen": false,
+      "isUnlocked": true
+    },
+    "drawer_1": {
+      "position": {
+        "x": 12.7461967,
+        "y": 27.6611023
+      },
+      "useType": 0,
+      "isOpen": false,
+      "isUnlocked": true
+    },
+    "drawer_2": {
+      "position": {
+        "x": 12.7461967,
+        "y": 27.6611023
+      },
+      "useType": 1,
+      "isOpen": false,
+      "isUnlocked": false
+    }
+  },
+  "Cabinet_Key01": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.3428068,
+      "y": 26.07673,
+      "z": 17.109
+    },
+    "eulerAngles": {
+      "x": 89.98022,
+      "y": 342.7471,
+      "z": 0.0
+    }
+  },
+  "dynamic_drawer02": {
+    "drawer_0": {
+      "position": {
+        "x": 12.799,
+        "y": 7.168897
+      },
+      "useType": 0,
+      "isOpen": false,
+      "isUnlocked": true
+    },
+    "drawer_1": {
+      "position": {
+        "x": 12.799,
+        "y": 7.168897
+      },
+      "useType": 0,
+      "isOpen": false,
+      "isUnlocked": true
+    },
+    "drawer_2": {
+      "position": {
+        "x": 12.799,
+        "y": 7.168897
+      },
+      "useType": 1,
+      "isOpen": false,
+      "isUnlocked": false
+    }
+  },
+  "zippo_01": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.2879934,
+      "y": 26.9563046,
+      "z": 17.042017
+    },
+    "eulerAngles": {
+      "x": 0.0306723323,
+      "y": 0.00140912028,
+      "z": 0.0122959167
+    }
+  },
+  "cabinet_door03": {
+    "objectEnabled": true
+  },
+  "cabinet_door02": {
+    "objectEnabled": true
+  },
+  "cabinet_door04": {
+    "objectEnabled": true
+  },
+  "cabinet_door01": {
+    "objectEnabled": true
+  },
+  "int_battery05": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.2999611,
+      "y": 26.5437222,
+      "z": 17.08801
+    },
+    "eulerAngles": {
+      "x": 270.048462,
+      "y": 359.9495,
+      "z": 0.0
+    }
+  },
+  "int_battery09": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.2179613,
+      "y": 26.5437222,
+      "z": 17.0020123
+    },
+    "eulerAngles": {
+      "x": 270.052338,
+      "y": 359.949738,
+      "z": 0.0
+    }
+  },
+  "int_battery10": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.2589607,
+      "y": 26.5437222,
+      "z": 17.0020123
+    },
+    "eulerAngles": {
+      "x": 270.048462,
+      "y": 359.9496,
+      "z": 0.0
+    }
+  },
+  "int_battery12": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.3359613,
+      "y": 26.5437222,
+      "z": 17.0020123
+    },
+    "eulerAngles": {
+      "x": 270.048462,
+      "y": 359.9496,
+      "z": 0.0
+    }
+  },
+  "int_battery04": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.2590017,
+      "y": 26.5437355,
+      "z": 17.088007
+    },
+    "eulerAngles": {
+      "x": 270.019775,
+      "y": 0.00436087837,
+      "z": 0.0
+    }
+  },
+  "int_battery02": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.177002,
+      "y": 26.5437355,
+      "z": 17.0880051
+    },
+    "eulerAngles": {
+      "x": 270.0,
+      "y": 0.00305053126,
+      "z": 0.0
+    }
+  },
+  "int_battery07": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.1358824,
+      "y": 26.5437222,
+      "z": 17.0020123
+    },
+    "eulerAngles": {
+      "x": 270.052338,
+      "y": 359.9496,
+      "z": 0.0
+    }
+  },
+  "int_battery01": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.1359224,
+      "y": 26.5437336,
+      "z": 17.088
+    },
+    "eulerAngles": {
+      "x": 270.0,
+      "y": 0.001572146,
+      "z": 0.0
+    }
+  },
+  "int_battery08": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.1769609,
+      "y": 26.5437222,
+      "z": 17.0020123
+    },
+    "eulerAngles": {
+      "x": 270.048462,
+      "y": 359.9495,
+      "z": 0.0
+    }
+  },
+  "int_battery03": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.2180023,
+      "y": 26.5437355,
+      "z": 17.0880051
+    },
+    "eulerAngles": {
+      "x": 270.0,
+      "y": 0.002993469,
+      "z": 0.0
+    }
+  },
+  "int_battery06": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.3359613,
+      "y": 26.5437222,
+      "z": 17.08801
+    },
+    "eulerAngles": {
+      "x": 270.048462,
+      "y": 359.9493,
+      "z": 0.0
+    }
+  },
+  "int_battery11": {
+    "objectEnabled": true,
+    "position": {
+      "x": 10.2999611,
+      "y": 26.5437222,
+      "z": 17.0020123
+    },
+    "eulerAngles": {
+      "x": 270.052338,
+      "y": 359.9496,
+      "z": 0.0
+    }
+  }
+}
