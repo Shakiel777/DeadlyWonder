@@ -16,12 +16,14 @@ public class UnderWater : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Water")
+        if (other.tag == "Water Volume")
         { // if entering a waterplane
-            if (transform.position.y < other.transform.position.y)
+            Debug.Log("Trigger enter " + other.tag);
+            if (transform.position.y < other.transform.position.y + 5f)
             {
                 // set reference to the current waterplane
                 curWater = other.gameObject;
+                Debug.Log("Trigger set " + other.gameObject);
             }
         }
     }
@@ -30,10 +32,12 @@ public class UnderWater : MonoBehaviour {
     {
         if (other.gameObject == curWater)
         { // if exiting the waterplane...
+            Debug.Log("Trigger Leave " + other.tag);
             if (transform.position.y + 0.6F > curWater.transform.position.y)
             {
                 //  null the current waterplane reference
                 curWater = null;
+                Debug.Log("Trigger removed (null) ");
             }
         }
     }
@@ -41,10 +45,12 @@ public class UnderWater : MonoBehaviour {
     void Update()
     {
         // if it's underwater...
-        if (curWater && Camera.main.transform.position.y < curWater.transform.position.y + 0.2F)
+        if (curWater && Camera.main.transform.position.y < curWater.transform.position.y + 5f)
         {
+            Debug.Log("if test to go under water");
             if (!underwater)
             { // turn on underwater effect only once
+                Debug.Log("going underwater ");
                 oldFog = RenderSettings.fog;
                 oldMode = RenderSettings.fogMode;
                 oldDens = RenderSettings.fogDensity;
@@ -58,8 +64,10 @@ public class UnderWater : MonoBehaviour {
 
         }
         else // but if it's not underwater...
-            if (underwater)
+            Debug.Log("if test to leave water");
+        if (underwater)
         { // turn off underwater effect, if any
+            Debug.Log("leaving water ");
             RenderSettings.fog = oldFog;
             RenderSettings.fogMode = oldMode;
             RenderSettings.fogDensity = oldDens;
